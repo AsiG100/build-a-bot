@@ -12,11 +12,12 @@
 </template>
 
 <script>
-    import parts from '../data/parts';
-    export default {
-        name: 'RobotBases',
-        data() {
-            return { bases: parts.bases };
-        },
-    };
+import parts from '../data/parts';
+
+export default {
+  name: 'RobotBases',
+  data() {
+    return { bases: parts.bases };
+  },
+};
 </script>
